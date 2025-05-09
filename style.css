@@ -1,0 +1,88 @@
+        body {
+            padding-top: 100px;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.437), rgba(243, 243, 243, 0.17)), url("images/pix1.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        .active {
+            color: rgb(221, 28, 28) !important;
+        }
+
+        .brand {
+            font-family: "Bodoni Moda", serif;
+            font-optical-sizing: auto;
+            font-weight: 80px;
+            font-style: normal;
+        }
+
+        .title1 {
+            color: rgb(63, 26, 26);
+            font-family: "Cinzel", serif;
+            font-optical-sizing: auto;
+            font-weight: bold;
+            font-style: normal;
+            font-size: 40px;
+        }
+
+        .title2 {
+            color: rgb(63, 26, 26);
+            font-family: "Cinzel", serif;
+            font-optical-sizing: auto;
+            font-weight: bold;
+            font-style: normal;
+            font-size: 40px;
+        }
+
+        .txt1 {
+            font-family: "Oswald", sans-serif;
+            font-optical-sizing: auto;
+            font-style: normal;
+        }
+
+        .img1:hover {
+            box-shadow: -5px -5px 15px 3px rgba(13, 114, 230, 0.425), 5px 5px 15px 3px rgba(10, 10, 10, 0.66) !important;
+        }
+
+        .para1 {
+            font-family: "Oswald", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400px;
+            font-style: normal;
+        }
+
+        .para2 {
+            font-family: "Chakra Petch", sans-serif;
+            font-weight: 300;
+            font-style: normal;
+        }
+
+        @media (max-width: 576px) {
+            .lotlogo1 {
+                display: flex;
+                justify-content: center;
+            }
+            .rare {
+                display: none !important;
+            }
+        }
+
+        .sec3 {
+            background-image: linear-gradient(rgba(252, 230, 169, 0.514), rgba(243, 243, 243, 0.651)), url("images/pix4.jpg");
+            background-color: aliceblue;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        .sec4 { 
+            background-image: linear-gradient(rgba(169, 246, 252, 0.384), rgba(243, 243, 243, 0.651)), url("images/img5.png");
+            background-color: aliceblue;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+        }
